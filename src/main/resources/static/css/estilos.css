@@ -1,0 +1,41 @@
+.page-nav {
+    background-color: #A9F5F2;
+    border: 1px solid #DCFAFF;
+    color: white;
+    position: relative;
+}
+
+.page-nav2 {
+    background-color: #F78181;
+    border: 2px solid #FF0000;
+    color: white;
+    position: relative;
+}
+
+.page-content {
+    padding: 16px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    
+    background-color: #A9E2F3;
+}
+
+.product-container2 {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    
+    background-color: #FA8258;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 90px 20px ;
+}
