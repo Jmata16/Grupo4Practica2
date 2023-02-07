@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'calibri', cursive;
+    box-sizing: border-box;
+           
+}
+body{
+    background: linear-gradient(120deg,black,gray);
+    height:100vh;
+    overflow: hidden;           
+} 
+.center{
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    width: 650px;
+    height: 700px;
+    background: white;
+    border-radius: 40px;
+    transform: translate(-50%,-50%);           
+} 
+.center h1{
+    text-align: center;
+    border-bottom: 2px solid silver;
+    padding: 20px 0;
+} 
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+} 
+form .txt_field{
+    position:relative;
+    border-bottom: 2px solid #808080;
+    margin: 30px 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    
+}
+.nav{
+    padding-left: 60px;
+    position:absolute;
+    left:75%;
+   
+}
+.content h1 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#232d60;
+}
+.boton1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding-left: 250px;
+
+   
+}
+.cuenta a{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    padding-left: 200px;
+    margin: 0px 0px 60px;
+    
+    
+    
+}
