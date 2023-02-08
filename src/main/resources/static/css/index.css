@@ -1,9 +1,100 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : Feb 2, 2023, 4:20:57 PM
-    Author     : jdmat
-*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/je.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 130px;
+    cursor: pointer;
+
+}
+nav{
+    padding-left: 60px;
+    position: absolute;
+    left: 27%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 30px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+
+}
+.content{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:#232d60;
+}
+.content p{
+    font-size: 50px;
+    color: #000000;
+    padding-left: 1500px;
+}
+
+.fondo{
+    height: 50%;
+    position: relative;
+    bottom: 50px;
+    right: 100px;
+}
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    border: 3px solid #000000;
+}
+.User{
+    position: absolute;
+    left: 90%;
+    height: 8%;
+
+}
+
+h3{
+    font-size: 25px;
+     color: #000000;
+    position: absolute;
+    top: 80%;
+    
+
+}
+h5{
+    border: 1px solid black;
+    position: absolute;
+    top: 55%;
+    left: 80%;
+
+
+
+}
